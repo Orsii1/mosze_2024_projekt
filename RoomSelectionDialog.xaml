@@ -1,0 +1,16 @@
+<Window x:Class="ElfeledettVarosokWPF.RoomSelectionDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Szobaválasztás" Height="200" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <ComboBox x:Name="RoomComboBox" Grid.Row="0" Margin="10" />
+
+        <Button Content="OK" Grid.Row="1" Margin="10" HorizontalAlignment="Center"
+                Click="OkButton_Click" />
+    </Grid>
+</Window>

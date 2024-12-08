@@ -1,0 +1,14 @@
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\bin\Debug\ElfeledettVarosokWPF.exe.config
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\bin\Debug\ElfeledettVarosokWPF.exe
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\bin\Debug\ElfeledettVarosokWPF.pdb
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\ElfeledettVarosokWPF.csproj.AssemblyReference.cache
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\MainWindow.baml
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\MainWindow.g.cs
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\App.g.cs
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\ElfeledettVarosokWPF_MarkupCompile.cache
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\ElfeledettVarosokWPF.g.resources
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\ElfeledettVarosokWPF.Properties.Resources.resources
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\ElfeledettVarosokWPF.csproj.GenerateResource.cache
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\ElfeledettVarosokWPF.csproj.CoreCompileInputs.cache
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\ElfeledettVarosokWPF.exe
+C:\Users\horva\source\repos\ElfeledettVarosokWPF\obj\Debug\ElfeledettVarosokWPF.pdb
