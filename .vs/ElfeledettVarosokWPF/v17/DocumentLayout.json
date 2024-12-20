@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\tests\\MainWindowTests.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\MainWindowTests.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -76,7 +80,7 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAcwHkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAQwLgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T16:59:18.595Z",
               "IsPinned": true,
@@ -84,20 +88,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-15T16:59:20.969Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "MainWindowTests.cs",
+              "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\tests\\MainWindowTests.cs",
+              "RelativeDocumentMoniker": "tests\\MainWindowTests.cs",
+              "ToolTip": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\tests\\MainWindowTests.cs",
+              "RelativeToolTip": "tests\\MainWindowTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T20:47:08.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ElfeledettVarosokWPF.csproj",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\ElfeledettVarosokWPF.csproj",
               "RelativeDocumentMoniker": "ElfeledettVarosokWPF.csproj",
@@ -105,11 +123,12 @@
               "RelativeToolTip": "ElfeledettVarosokWPF.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-08T17:54:29.543Z"
+              "WhenOpened": "2024-12-08T17:54:29.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -117,11 +136,12 @@
               "RelativeToolTip": "App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-08T17:52:49.091Z"
+              "WhenOpened": "2024-12-08T17:52:49.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -129,11 +149,12 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:52:48.144Z"
+              "WhenOpened": "2024-12-08T17:52:48.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CombatSystem.cs",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\CombatSystem.cs",
               "RelativeDocumentMoniker": "CombatSystem.cs",
@@ -141,11 +162,12 @@
               "RelativeToolTip": "CombatSystem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:52:47.517Z"
+              "WhenOpened": "2024-12-08T17:52:47.517Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Dialogue.cs",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\Dialogue.cs",
               "RelativeDocumentMoniker": "Dialogue.cs",
@@ -153,11 +175,12 @@
               "RelativeToolTip": "Dialogue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:52:46.973Z"
+              "WhenOpened": "2024-12-08T17:52:46.973Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\Enemy.cs",
               "RelativeDocumentMoniker": "Enemy.cs",
@@ -165,11 +188,12 @@
               "RelativeToolTip": "Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:52:46.428Z"
+              "WhenOpened": "2024-12-08T17:52:46.428Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Inventory.cs",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\Inventory.cs",
               "RelativeDocumentMoniker": "Inventory.cs",
@@ -177,11 +201,12 @@
               "RelativeToolTip": "Inventory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:52:45.895Z"
+              "WhenOpened": "2024-12-08T17:52:45.895Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "NPC.cs",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\NPC.cs",
               "RelativeDocumentMoniker": "NPC.cs",
@@ -189,11 +214,12 @@
               "RelativeToolTip": "NPC.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:52:45.191Z"
+              "WhenOpened": "2024-12-08T17:52:45.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RoomSelectionDialog.xaml",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\RoomSelectionDialog.xaml",
               "RelativeDocumentMoniker": "RoomSelectionDialog.xaml",
@@ -201,11 +227,12 @@
               "RelativeToolTip": "RoomSelectionDialog.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-08T17:52:42.719Z"
+              "WhenOpened": "2024-12-08T17:52:42.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "RoomSelectionDialog.xaml.cs",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\RoomSelectionDialog.xaml.cs",
               "RelativeDocumentMoniker": "RoomSelectionDialog.xaml.cs",
@@ -213,11 +240,12 @@
               "RelativeToolTip": "RoomSelectionDialog.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:52:41.566Z"
+              "WhenOpened": "2024-12-08T17:52:41.566Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
@@ -225,11 +253,12 @@
               "RelativeToolTip": "Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:52:40.867Z"
+              "WhenOpened": "2024-12-08T17:52:40.867Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\horva\\source\\repos\\ElfeledettVarosokWPF\\Room.cs",
               "RelativeDocumentMoniker": "Room.cs",
@@ -237,7 +266,8 @@
               "RelativeToolTip": "Room.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T17:52:40.205Z"
+              "WhenOpened": "2024-12-08T17:52:40.205Z",
+              "EditorCaption": ""
             }
           ]
         }

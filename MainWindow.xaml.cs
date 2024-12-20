@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
+using System.Timers;
 
 namespace ElfeledettVarosokWPF
 {
@@ -12,12 +14,15 @@ namespace ElfeledettVarosokWPF
         private Dictionary<string, string> rooms;
         private string currentRoom;
         private List<string> inventory = new List<string>();
-        private Dictionary<string, (int HP, int Damage)> enemies = new Dictionary<string, (int, int)>()
+        private Dictionary<string, (int, int)> enemies = new Dictionary<string, (int, int)>
         {
-            { "Sötét Lovag", (HP: 30, Damage: 10) },
-            { "Vérszomjas Bestia", (HP: 50, Damage: 15) }
+            { "Sötét Lovag", (30, 10) },
+            { "Vérszomjas Bestia", (50, 15) }
         };
-        private int playerHP = 100;
+        private Dictionary<string, string> enemiesInRooms = new Dictionary<string, string>();  // Store enemies in rooms
+        private string currentEnemy;
+        private Timer fightTimer;
+        private bool isFighting = false;
 
         public MainWindow()
         {
@@ -44,6 +49,23 @@ namespace ElfeledettVarosokWPF
 
             currentRoom = "Főtér";
             UpdateRoom();
+            GenerateEnemies();
+        }
+
+        private void GenerateEnemies()
+        {
+            Random rand = new Random();
+            List<string> roomList = rooms.Keys.ToList();
+            roomList.Remove(currentRoom);  // Ne helyezze az ellenséget az aktuális szobába
+
+            // Véletlenszerűen választunk két szobát
+            for (int i = 0; i < 2; i++)
+            {
+                string room = roomList[rand.Next(roomList.Count)];
+                string enemy = enemies.Keys.ToList()[rand.Next(enemies.Count)];
+                enemiesInRooms[room] = enemy;
+                roomList.Remove(room); // Ne választható újra ugyanaz a szoba
+            }
         }
 
         private void UpdateRoom()
@@ -53,8 +75,21 @@ namespace ElfeledettVarosokWPF
                 RoomDescription.Text = rooms[currentRoom];
                 DialogueOptions.Items.Clear();
                 DialogueOptions.Items.Add("Helyszínek");
+
+                // Hozzáadjuk az összes elérhető helyszínt
+                foreach (var room in rooms.Keys)
+                {
+                    DialogueOptions.Items.Add(room);
+                }
+
                 DialogueOptions.Items.Add("Inventory megtekintése");
                 DialogueOptions.Items.Add("Kilépés");
+
+                // Ha ellenség van a szobában, felajánlja a harcot
+                if (enemiesInRooms.ContainsKey(currentRoom))
+                {
+                    DialogueOptions.Items.Add("Harcolj!");
+                }
             }
         }
 
@@ -75,26 +110,54 @@ namespace ElfeledettVarosokWPF
                 {
                     ExitGame();
                 }
+                else if (selectedOption == "Harcolj!" && !isFighting)
+                {
+                    StartFight();
+                }
+                else if (rooms.ContainsKey(selectedOption))
+                {
+                    currentRoom = selectedOption;
+                    UpdateRoom();
+                }
             }
         }
 
         private void NavigateRooms()
         {
-            string newRoom = Microsoft.VisualBasic.Interaction.InputBox("Hova szeretnél menni? (pl. Fogadó, Taverna, stb.)", "Szobaváltás");
+            string newRoom = Microsoft.VisualBasic.Interaction.InputBox("Hova szeretnél menni?", "Szobaváltás");
             if (rooms.ContainsKey(newRoom))
             {
                 currentRoom = newRoom;
-                UpdateRoom();
-            }
-            else if (newRoom == "Széchenyi István Egyetem" && currentRoom == "Taverna")
-            {
-                currentRoom = "Széchenyi István Egyetem";
                 UpdateRoom();
             }
             else
             {
                 MessageBox.Show("Ez a helyszín nem érhető el innen.", "Hiba");
             }
+        }
+
+        private void StartFight()
+        {
+            if (isFighting) return;
+
+            isFighting = true;
+            currentEnemy = enemiesInRooms[currentRoom];
+
+            // Véletlenszerű esély, hogy nyerjünk (60%)
+            Random rand = new Random();
+            int winChance = rand.Next(0, 101); // 0-100 között
+            if (winChance <= 60)
+            {
+                MessageBox.Show($"Győztél a {currentEnemy}-val/vel szemben!", "Győzelem!");
+                enemiesInRooms.Remove(currentRoom); // Elveszítette az ellenséget
+            }
+            else
+            {
+                MessageBox.Show($"Vesztettél a {currentEnemy}-val/vel szemben! Visszatérsz a Főtérre.", "Vereség!");
+                currentRoom = "Főtér"; // Visszatérés a főtérre
+            }
+            isFighting = false;
+            UpdateRoom();
         }
 
         private void OpenInventory()
